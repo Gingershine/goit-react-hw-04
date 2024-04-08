@@ -1,3 +1,14 @@
 .list {
     list-style-type: none;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    height: 238px;
+    object-fit: cover;
+        border-radius: 10px;
+        overflow: hidden;
 }
