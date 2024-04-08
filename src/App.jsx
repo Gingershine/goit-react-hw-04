@@ -19,14 +19,12 @@ function App() {
   const [showBtn, setShowBtn] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);  
  
-
-
-  useEffect(() => {
+  
+ useEffect(() => {
     
     if (!searchQuery) return;
     async function fetchImages() {
-      try {
-        
+      try {        
         setisError(false);
         setisLoading(true);
         const data = await fetchImagesByName(searchQuery, currentPage);       

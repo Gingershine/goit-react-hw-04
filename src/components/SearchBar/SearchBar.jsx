@@ -26,7 +26,7 @@ toast.error('Please enter a valid image name');
           <input
             className={css.input}
             type="text"
-            // autoComplete="off"
+            autoComplete="off"
             autoFocus
             placeholder="Search images and photos"
             name='imageName'
