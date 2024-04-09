@@ -43,6 +43,7 @@ function App() {
   const onSearchQuerySetup = (query) => {
     setSearchQuery(query);
     setImages([])
+    setCurrentPage(1);
   }
   
  const openModal = (image) => {   
