@@ -7,8 +7,8 @@ const ImageCard = ({ image, openModal}) => {
 }
   
   return (
-      <div>
-          <img onClick={handleClick} className={css.ImageCard} src={image.urls.small} alt={image.alt_description} />		
+      <div className={css.ImageCardWraper}>
+          <img className={css.ImageCard} onClick={handleClick} src={image.urls.small} alt={image.alt_description} />		
       </div>
   )
 }
